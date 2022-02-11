@@ -1,0 +1,7 @@
+# to find the result of a student weather pass or fail
+name=input("enter the name of the student:")
+marks=int(float(input("enter the marks:")))
+if(marks>=50):
+    print(name,"is passed")
+else:
+    print(name,"is failed")
